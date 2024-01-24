@@ -12,6 +12,7 @@ public class Spel{
         System.out.println("Meny:");
         System.out.println("1. Start");
         System.out.println("2. Avsluta");
+        System.out.println("3. Regler");
 
 
         int val = scanner.nextInt();
@@ -24,25 +25,30 @@ public class Spel{
                 //här kan jag lägga till kod som ska användas för alternativ 1.
                 break;
             case 2: 
-                System.out.println("Du valde att avsluta spelet");
+                System.out.println("Du valde att avsluta spelet.");
                 break;
-
+            case 3:
+                System.out.println("Du valde att se på reglerna.\n REGLER: \n 1. Att ha kul!");
+                break; 
             default:
                 System.out.println("Ogiltigt svar. Var vänlig och välja mellan 1 av alternativen.");
 
+        if starta spelet .... nedan: 
 
-                System.out.println("första");
+            System.out.println("första"); 
 
 
 
 
-                Random random = new Random();
+            Random random = new Random();
 
-                int player1 = random.nextInt(10);
-                int player2 = random.nextInt(10);
-                
-                
+            int player1 = random.nextInt(10);
+            int player2 = random.nextInt(10);
+            
 
+
+
+             
 
                 
         }
