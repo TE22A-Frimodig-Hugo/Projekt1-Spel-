@@ -57,9 +57,22 @@ public class Spel {
                     break;
                 case 3:
                     // Regelutskrift här
+                    System.out.println("Regler: \n1. Respektfullt Språk:");
+                    System.out.println("- Spelaren förväntas använda ett respektfullt språk och undvika svordomar eller olämpligt beteende under spelets gång." );
+                    System.out.println("2. Fusk och Manipulation:");
+                    System.out.println("- Användning av fusk eller försök till manipulation av spelet, inklusive externa program eller otillåtna verktyg, är inte tillåtet.");
+                    System.out.println("3. Personliga Uppgifter:");
+                    System.out.println("- Spelaren uppmanas att inte dela personliga uppgifter, både egna och andras, under interaktionen med spelet. Personlig integritet bör respekteras.");
+                    System.out.println("4. Fair Play:");
+                    System.out.println("- Spelaren förbinder sig att följa principerna för fair play och undvika att utnyttja eventuella spelsystem eller mekanismer på ett osportsligt sätt.");
+                    System.out.println("5. Uppföljning av Upphovsrättsregler:");
+                    System.out.println("- Spelaren förbinder sig att respektera och inte bryta mot eventuella upphovsrättsregler som gäller för spelet, inklusive att inte dela eller distribuera material utan tillstånd.");
+                    System.out.println("6. Ha kul:");
+                    System.out.println("- Det viktigaste bortsett från dem andra reglerna är att ha kul som är den huvudsakliga faktorn");
                     break;
+                
                 default:
-                    System.out.println("Ogiltigt svar. Var vänlig och välja mellan 1 av alternativen.");
+                    System.out.println("Ogiltigt svar. Var vänlig och välja mellan ett av alternativen, 1-3.");
             }
         }
     }
